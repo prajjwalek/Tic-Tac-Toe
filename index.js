@@ -24,7 +24,7 @@ function initGame(){
     boxes.forEach((box, index) => {
         box.innerText = "";
         boxes[index].style.pointerEvents = "all";
-        //initialise box eith css properties again
+        //initialise box add css properties again
         box.classList =`box box${index+1}`;
     });
     newGameBtn.classList.remove(".active");
