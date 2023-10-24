@@ -27,7 +27,7 @@ function initGame(){
         //initialise box add css properties again
         box.classList =`box box${index+1}`;
     });
-    newGameBtn.classList.remove(".active");
+    newGameBtn.classList.remove("active");
     gameInfo.innerText = `Current Player - ${currentPlayer}`;
 }
 
@@ -35,10 +35,10 @@ initGame();
 
 function swapTurn() {
     if(currentPlayer === "X"){
-        currentPlayer === "O";
+        currentPlayer = "O";
     }
     else {
-        currentPlayer === "X";
+        currentPlayer = "X";
     }
     //UI update
     gameInfo.innerText = `Current Player - ${currentPlayer}`;
