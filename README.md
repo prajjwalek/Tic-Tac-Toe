@@ -1,0 +1,1 @@
+Developed a tic-tac-toe game using HTML, CSS, and JavaScript, with dynamic result display and reset capabilities, highlighting proficiency in front-end web development and interactive user experiences.
